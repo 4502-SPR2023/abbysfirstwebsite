@@ -41,7 +41,7 @@ p {
   color: #333;
   text-align: center;
   margin-top: 20px;
-  font-family: 'Tilt Prism', sans-serif;
+  font-family: 'Noto Serif', serif;
 }
 
 
@@ -63,7 +63,7 @@ img {
   border: none;
   display: flex;
   justify-content: center;
-  width:250px;height:370px
+  width:450px;height:370px
 }
 
 
@@ -85,12 +85,12 @@ img {
 }
 
 .jokepunchline {
-  font-family: 'Tilt Neon', sans-serif;
+  font-family: 'Tilt Prism', sans-serif;
   background-color: #FFA07A;
 }
 
 .colorslist {
-  font-family: font-family: 'Noto Serif', serif;
+  font-family: font-family: 'Tilt Neon', sans-serif;
   text-align: center;
 }
 
