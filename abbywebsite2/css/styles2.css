@@ -14,7 +14,9 @@ header {
 }
 
 h1 {
-  font-family: 'Tilt Prism', sans-serif;
+  font-family: 'Tilt Neon', sans-serif;
+  color: darkgray;
+  background-color: #CD5C5C;
 }
 
 h2 {
@@ -41,11 +43,14 @@ p {
 }
 
 .nav1 {
-  font-size: 24px;
+  font-size: 12px;
   font-weight: 700;
   color: #mediumblue;
+  display: flex-around;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 5px;
+  margin-left: 200px;
+  margin-right: 200px;
   font-family: 'Noto Serif', serif;
 }
 
@@ -82,9 +87,11 @@ img {
         max-width: 800px;
 }
 
-.content {
+.joke {
   font-family: 'Tilt Neon', sans-serif;
-  width: 80%;
+  width: 90%;
+  background-color: #CD5C5C;
+  padding: 24px;
 }
 
 .list {
@@ -93,6 +100,8 @@ img {
 
 footer {
   background-color: #F08080;
-  padding: 5px;
+  margin-top: 5px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
