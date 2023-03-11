@@ -13,8 +13,15 @@ header {
   padding: 20px;
 }
 
-.contact {
+h1 {
+  font-family: 'Tilt Neon', sans-serif;
+  color: darkgray;
+  background-color: #CD5C5C;
+}
+
+h2 {
   font-family: 'Tilt Prism', sans-serif;
+  font size: 4rem;
 }
 
 .maintext {
@@ -36,11 +43,14 @@ p {
 }
 
 .nav1 {
-  font-size: 24px;
+  font-size: 12px;
   font-weight: 700;
-  color: #333;
+  color: #mediumblue;
+  display: flex-around;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 5px;
+  margin-left: 200px;
+  margin-right: 200px;
   font-family: 'Noto Serif', serif;
 }
 
@@ -52,7 +62,7 @@ a {
 }
 
 
-ul {
+ol {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,7 +73,6 @@ img {
   border: none;
   display: flex;
   justify-content: center;
-  width:450px;height:370px
 }
 
 
@@ -80,22 +89,19 @@ img {
 
 .joke {
   font-family: 'Tilt Neon', sans-serif;
-  width: 80%;
+  width: 90%;
   background-color: #CD5C5C;
+  padding: 24px;
 }
 
-.jokepunchline {
-  font-family: 'Tilt Prism', sans-serif;
-  background-color: #FFA07A;
-}
-
-.colorslist {
-  font-family: font-family: 'Tilt Neon', sans-serif;
-  text-align: center;
+.list {
+  font-family: font-family: 'Tilt Prism', sans-serif;
 }
 
 footer {
   background-color: #F08080;
-  padding: 20px;
+  margin-top: 5px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 

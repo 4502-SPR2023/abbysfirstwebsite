@@ -13,8 +13,15 @@ header {
   padding: 20px;
 }
 
-.contact {
+h1 {
   font-family: 'Tilt Prism', sans-serif;
+  color: lavender;
+  background-color: #CD5C5C;
+}
+
+h2 {
+  font-family: 'Tilt Neon', sans-serif;
+  font size: 4rem;
 }
 
 .maintext {
@@ -38,12 +45,11 @@ p {
 .nav1 {
   font-size: 24px;
   font-weight: 700;
-  color: #333;
+  color: lavender;
   text-align: center;
   margin-top: 20px;
-  font-family: 'Noto Serif', serif;
+  font-family: 'Tilt Neon', sans-serif;
 }
-
 
 a {
   text-decoration: inherit;
@@ -52,7 +58,7 @@ a {
 }
 
 
-ul {
+ol {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,39 +69,22 @@ img {
   border: none;
   display: flex;
   justify-content: center;
-  width:450px;height:370px
 }
 
-
-.maintext {
-  display: flex;
-    justify-content: center; 
-      align-items: center;
-      flex-direction: column; 
-        background: #DEDEDE;
-        border-radius: 1em;
-        padding: 1em;
-        max-width: 800px;
-}
 
 .joke {
   font-family: 'Tilt Neon', sans-serif;
-  width: 80%;
+  width: 97%;
   background-color: #CD5C5C;
+  padding: 24px;
 }
 
-.jokepunchline {
-  font-family: 'Tilt Prism', sans-serif;
-  background-color: #FFA07A;
-}
-
-.colorslist {
-  font-family: font-family: 'Tilt Neon', sans-serif;
-  text-align: center;
+.list {
+  font-family: 'Tilt Neon', sans-serif;
 }
 
 footer {
   background-color: #F08080;
-  padding: 20px;
+  padding: 5px;
 }
 
