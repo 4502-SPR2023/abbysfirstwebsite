@@ -126,8 +126,14 @@ img {
   padding: 24px;
 }
 
+.media-holder {
+  width:90%;
+  background-color: #FFA07A;
+  padding: 24px;
+}
+
 .location-holder {
-  width:100%;
+  width: 90%;
   background-color: #FFA07A;
   padding: 24px;
 }
