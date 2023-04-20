@@ -8,11 +8,6 @@ body {
   background-color: #E9967A;
 }
 
-header {
-  background-color: #F08080;
-  padding: 20px;
-}
-
 h1 {
   font-size: 2rem;
   font-family: 'Tilt Prism', sans-serif;
@@ -37,13 +32,13 @@ h1 {
   margin-bottom: 2rem;
 }
 button {
-  background-color: indianred;
+  background-color: #F08080;
   border-color: whitesmoke;
   border-radius: 5pt;
   font-family: 'Tilt Neon', sans-serif;
   font-weight: 'Bold 700', bolder;
   color: black;
-  width: 5rem;
+  width: 6rem;
 }
 
 figcaption {
@@ -68,6 +63,16 @@ figcaption {
   min-width: 30%;
 }
 
+.media {
+  float: center;
+  padding: 10px;
+  font-family: 'Noto Serif', serif;
+  font-weight: 100;
+  font size: 1rem;
+  max-width: 100%;
+  min-width: 30%;
+}
+
 p {
   font-size: 18px;
   font-weight: 400;
@@ -76,12 +81,12 @@ p {
 }
 
 .nav1 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
-  color: #333;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 2px;
   font-family: 'Tilt Neon', sans-serif;
+  width: 100%;
 }
 
 
@@ -98,6 +103,26 @@ ul {
   align-items: center;
 }
 
+.text-holder {
+  width: 90%;
+  background-color: #FFA07A;
+  padding: 24px;
+  border-radius: 9px;
+}
+
+.media-holder {
+  width:90%;
+  background-color: #FFA07A;
+  padding: 24px;
+  border-radius: 9px;
+}
+
+.location-holder {
+  width: 90%;
+  background-color: #FFA07A;
+  padding: 24px;
+  border-radius: 9px;
+}
 
 img {
   border: none;
@@ -120,13 +145,16 @@ img {
 
 .joke {
   font-family: 'Tilt Neon', sans-serif;
-  width: 80%;
+  width: 95%;
   background-color: #CD5C5C;
+  border-radius: 9px;
+
 }
 
 .jokepunchline {
   font-family: 'Tilt Prism', sans-serif;
   background-color: #FFA07A;
+
 }
 
 .colorslist {
@@ -135,9 +163,13 @@ img {
 }
 
 footer {
-  background-color: #F08080;
-  padding: 20px;
+  background-color: #CD5C5C;
+  padding: 10px;
+  font-size: 16px;
   font-family: 'Tilt Neon', sans-serif;
+  justify-content: center; 
+  border-radius: 9px;
+  width: 95%;
 }
 
 @media screen and (max-width: 992px){
