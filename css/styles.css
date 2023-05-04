@@ -207,13 +207,13 @@ footer {
     width: 70%;
   }
 
-  nav ul {
+  nav1 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
 
-  nav li {
+  nav1 {
     width: 50%;
   }
 
@@ -230,7 +230,7 @@ footer {
     width: calc(100% - 250px);
   }
 
-  nav li {
+  nav1 {
     width: 25%;
   }
 }
