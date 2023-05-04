@@ -193,44 +193,155 @@ footer {
   margin-top: .5rem;
 }
 
-@media (min-width: 555px) {
+@media only screen and (min-width: 800px) {
 
-  .media-holder {
-    flex-direction: row;
+  body {
+    background-color: #1D0029;
+
   }
 
-  .image-holder {
-    width: 30%;
+  .nav1 {
+    position: sticky;
+    top: 10px; left: 5px;
+    float: left !important;
+    font-family: 'Tilt Neon', sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    max-width: 100%;
+    min-width: 10%;
+    padding: 0.1rem 0.3rem 0.1rem 0.3rem;
+    font-size: 2rem;
+
+  }
+  .nav2 {
+    display: inline-block;
+    float: left;
+    margin: 0.1rem;
+    background-color: whitesmoke;
   }
 
-  .media-list .text-holder {
-    width: 70%;
-  }
-
-  nav1 {
+    .headline {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
+    background-clip: content-box;
+    background-color: whitesmoke;
+    }
 
-  nav1 {
-    width: 50%;
-  }
+    .headline img {
+      float: left;
+      justify-content: center;
+      padding: 0.3rem;
+    }
+
 
 }
 
+@media screen and (min-width: 555px) and (max-width: 799px){
 
-@media (min-width: 800px) {
-
-  .image-holder {
-    width: 250px;
+  body {
+    background-color: #1D0029;
+  }
+  footer {
+    
+    font-family: 'Tilt Neon', sans-serif;
+    padding: 0.2rem;
+    
   }
 
-  .media-list .text-holder {
-    width: calc(100% - 250px);
+    .headline {
+    display: flex;
+    background-clip: content-box;
+    background-color: #FFECDB;
+    }
+
+    .headline img {
+      float: left;
+      justify-content: center;
+      padding: 0.3rem;
+    }
+}
+
+
+
+@media screen and (max-width: 554px){
+    
+  body {
+      background-color: #1D0029;
+    }
+  .nav1 {
+    background-color: white;
+    position: sticky;
+    bottom: 5px; right: 5px;
+    float: right !important;
+    font-family: 'Tilt Neon', sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 0.3rem;
+    max-width: 100%;
+    min-width: 10%;
+    padding: .1rem .1rem .1rem .3rem;
+  
+
+  }
+  h1 {
+    font-size: 1rem;
+    font-family: 'Tilt Prism', sans-serif;
   }
 
-  nav1 {
-    width: 25%;
+
+  p {
+    font-size: 1.0rem;
   }
+
+  footer {
+    
+    font-family: 'Tilt Neon', sans-serif;
+    padding: 0.2rem;
+    
+  }
+
+  .maintext {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: ;
+    flex-direction: column; 
+    background: #DEDEDE;
+    color: white;
+    border-radius: .1em;
+    padding: 1em;
+    font-size: 1.5rem;
+        
+    }
+
+    .nav1 {
+      background-color: white;
+      position: sticky;
+      bottom: 5px; right: 5px;
+      float: right !important;
+      font-family: 'Open Sans', sans-serif;
+      text-transform: uppercase;
+      font-weight: 100;
+      font-size: 1.0rem;
+      max-width: 100%;
+      min-width: 10%;
+      padding: .1rem .1rem .1rem .3rem;
+      top: 3px;
+    
+
+   }
+
+    
+  
+.headline {
+  background-color: whitesmoke;
+
+}
+
+    
+}
+ button {
+  min-width: 10rem;
+  border-radius: 5px;
+
 }
