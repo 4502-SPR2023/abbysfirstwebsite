@@ -141,12 +141,17 @@ ul {
   width:90%;
   padding: 24px;
   border-radius: 9px;
+  margin-left: 35px;
+  margin-right: 12px;
 }
 
 .location-holder {
-  width: 90%;
   padding: 24px;
   border-radius: 9px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
 }
 
 img {
@@ -163,7 +168,6 @@ img {
 
 .content {
   font-family: 'Tilt Neon', sans-serif;
-  width: 95%;
   background-color: #DCC6E0;
   border-radius: 9px;
   margin-bottom: .5rem;
@@ -171,11 +175,6 @@ img {
 
 }
 
-.jokepunchline {
-  font-family: 'Tilt Prism', sans-serif;
-  background-color: #DCC6E0;
-
-}
 
 .colorslist {
   font-family: font-family: 'Tilt Neon', sans-serif;
@@ -268,12 +267,11 @@ footer {
       background-color: #1D0029;
     }
   .nav1 {
-  
+    background-color: white;
     position: sticky;
     bottom: 5px; right: 5px;
     float: right !important;
     font-family: 'Tilt Neon', sans-serif;
-    text-transform: uppercase;
     font-weight: 100;
     font-size: 0.3rem;
     max-width: 100%;
@@ -315,6 +313,7 @@ footer {
     }
 
     .nav1 {
+      background-color: white;
       position: sticky;
       bottom: 5px; right: 5px;
       float: right !important;
